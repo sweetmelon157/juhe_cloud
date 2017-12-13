@@ -1,0 +1,20 @@
+server:
+  port: 7080
+
+eureka:
+  instance:
+    metadata-map:
+      user.name: ${security.user.name}
+      user.password: ${security.user.password}
+
+security:
+  user:
+    name: user
+    password: password
+  oauth2:
+    client:
+      clientId: cauds-account-service
+      clientSecret: ${security.user.password}
+      accessTokenUri: http://192.168.2.169:8060${authserver.contextPath}/oauth/token
+      grant-type: client_credentials
+      scope: server
