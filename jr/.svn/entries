@@ -1,7 +1,7 @@
 10
 
 dir
-5657
+5819
 svn://121.40.71.49/repos/juhe-cloud/config/src/main/resources/config/jr
 svn://121.40.71.49/repos
 
@@ -339,16 +339,16 @@ jsdata
 
 449
 
-gateway.yml
+finbridge-base-service.yml
 file
+5820
 
 
 
-
-2017-10-19T06:07:46.000000Z
-dd743d567a85d860ce4c0a79e3f9be5b
-2017-12-13T07:46:51.896212Z
-5657
+2018-01-11T03:10:19.000000Z
+b70dfe4d0cf8a6319918706b3ee53c24
+2018-01-11T03:10:39.001930Z
+5820
 jsdata
 
 
@@ -371,7 +371,41 @@ jsdata
 
 
 
-1091
+449
+
+gateway.yml
+file
+5820
+
+
+
+2018-01-11T03:10:19.000000Z
+4b7e7afac4fa749170db2c495c7d012e
+2018-01-11T03:10:39.001930Z
+5820
+jsdata
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1144
 
 pay-account-service.yml
 file
@@ -474,4 +508,38 @@ jsdata
 
 
 662
+
+userfiles-service.yml
+file
+5820
+
+
+
+2018-01-11T03:09:26.000000Z
+66c47021168ebf6041b0043844796a2a
+2018-01-11T03:10:39.001930Z
+5820
+jsdata
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+449
 

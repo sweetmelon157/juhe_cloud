@@ -21,7 +21,7 @@ ribbon:
 
 spring:
   rabbitmq:
-    host: 10.253.117.216
+    host: 10.28.45.212
     username: juhe
     password: juhe123678
 

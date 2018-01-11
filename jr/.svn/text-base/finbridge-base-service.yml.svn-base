@@ -1,0 +1,20 @@
+server:
+  port: 5050
+
+eureka:
+  instance:
+    metadata-map:
+      user.name: ${security.user.name}
+      user.password: ${security.user.password}
+
+security:
+  user:
+    name: user
+    password: password
+  oauth2:
+    client:
+      clientId: pay-account-service
+      clientSecret: ${security.user.password}
+      accessTokenUri: http://10.253.117.187:8060${authserver.contextPath}/oauth/token
+      grant-type: client_credentials
+      scope: server

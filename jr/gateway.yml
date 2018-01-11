@@ -24,32 +24,32 @@ zuul:
       path: /uaa/**
       stripPrefix: false
       sensitiveHeaders:
-    svca-service:
-      path: /svca/**
+    userfiles-service:
+      path: /userfiles/**
       sensitiveHeaders:
-    svcb-service:
-      path: /svcb/**
-      sensitiveHeaders:
-    cauds-service:
-      path: /cauds/**
-      sensitiveHeaders:
-    cauds-account-service:
-      path: /cauds-account/**
-      sensitiveHeaders:
-    cauds-exchange-service:
-      path: /cauds-exchange/**
-      sensitiveHeaders:
-    cauds-statistics-service:
-      path: /cauds-stat/**
-      sensitiveHeaders:
-    cauds-tasks-service:
-      path: /cauds-tasks/**
-    risk-manage-service:
-      path: /risk-manage/**
-      sensitiveHeaders:
-    pay-account-service:
-      path: /pay/**
-      sensitiveHeaders:
-    cash-account-service:
-      path: /cash-account/**
+#    cauds-service:
+#      path: /cauds/**
+#      sensitiveHeaders:
+#    cauds-account-service:
+#      path: /cauds-account/**
+#      sensitiveHeaders:
+#    cauds-exchange-service:
+#      path: /cauds-exchange/**
+#      sensitiveHeaders:
+#    cauds-statistics-service:
+#      path: /cauds-stat/**
+#      sensitiveHeaders:
+#    cauds-tasks-service:
+#      path: /cauds-tasks/**
+#    risk-manage-service:
+#      path: /risk-manage/**
+#      sensitiveHeaders:
+#    pay-account-service:
+#      path: /pay/**
+#      sensitiveHeaders:
+#    cash-account-service:
+#      path: /cash-account/**
+#      sensitiveHeaders:
+    finbridge-base-service:
+      path: /finbridge-base/**
       sensitiveHeaders:
