@@ -24,6 +24,13 @@ spring:
     host: 10.253.117.216
     username: juhe
     password: juhe123678
+  http:
+    multipart:
+      enabled: true
+      file-size-threshold: 0
+      location: /tmp
+      max-file-size: 25Mb
+      max-request-size: 35Mb
 
   sleuth:
     sampler:
