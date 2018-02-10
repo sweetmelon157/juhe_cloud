@@ -53,3 +53,6 @@ zuul:
     finbridge-base-service:
       path: /finbridge-base/**
       sensitiveHeaders:
+    finbridge-mine-service:
+      path: /finbridge-mine/**
+      sensitiveHeaders:
