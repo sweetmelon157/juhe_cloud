@@ -373,16 +373,39 @@ jsdata
 
 448
 
+finbridge-mine-service.yml
+file
+
+
+
+add
+
+a499cc49be60a803b10e1952394d00ce
+
+
+
+
+
+
+
+
+
+
+
+copied
+svn://121.40.71.49/repos/juhe-cloud/config/src/main/resources/config/local/finbridge-base-service.yml
+5819
+
 gateway.yml
 file
-5820
+5860
 
 
 
-2018-01-11T03:10:18.000000Z
-4b7e7afac4fa749170db2c495c7d012e
-2018-01-11T03:10:39.001930Z
-5820
+2018-02-06T08:29:39.000000Z
+9233945c6a0e161d8ee99df4b1b02797
+2018-02-06T08:44:44.327127Z
+5860
 jsdata
 
 
@@ -405,7 +428,7 @@ jsdata
 
 
 
-1144
+1121
 
 pay-account-service.yml
 file

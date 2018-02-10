@@ -1,0 +1,33 @@
+server:
+  port: 5051
+
+eureka:
+  instance:
+    metadata-map:
+      user.name: ${security.user.name}
+      user.password: ${security.user.password}
+
+security:
+  user:
+    name: user
+    password: password
+  oauth2:
+    client:
+      clientId: finbridge-mine-service
+      clientSecret: ${security.user.password}
+      accessTokenUri: http://10.47.51.91:8060${authserver.contextPath}/oauth/token
+      grant-type: client_credentials
+      scope: server
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 180000
+
+risk-manage-service:
+  ribbon:
+    ReadTimeout: 180000
+    ConnectTimeout: 180000
