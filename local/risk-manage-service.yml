@@ -15,7 +15,7 @@ security:
     client:
       clientId: risk-manage-service
       clientSecret: ${security.user.password}
-      accessTokenUri: http://192.168.2.169:8060${authserver.contextPath}/oauth/token
+      accessTokenUri: http://192.168.103.166:8060${authserver.contextPath}/oauth/token
       grant-type: client_credentials
       scope: server
 

@@ -1,14 +1,14 @@
 10
 
 dir
-5819
+5905
 svn://121.40.71.49/repos/juhe-cloud/config/src/main/resources/config/jr
 svn://121.40.71.49/repos
 
 
 
-2017-12-13T07:46:51.896212Z
-5657
+2018-02-06T08:44:44.327127Z
+5860
 jsdata
 
 
@@ -69,7 +69,7 @@ jsdata
 
 application.yml
 file
-5831
+
 
 
 
@@ -341,7 +341,7 @@ jsdata
 
 finbridge-base-service.yml
 file
-5820
+
 
 
 
@@ -375,7 +375,7 @@ jsdata
 
 finbridge-mine-service.yml
 file
-
+5819
 
 
 add
@@ -398,7 +398,7 @@ svn://121.40.71.49/repos/juhe-cloud/config/src/main/resources/config/jr/finbridg
 
 gateway.yml
 file
-5860
+
 
 
 
@@ -534,7 +534,7 @@ jsdata
 
 userfiles-service.yml
 file
-5820
+
 
 
 

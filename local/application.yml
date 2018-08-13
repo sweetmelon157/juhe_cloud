@@ -40,4 +40,4 @@ authserver:
 security:
   oauth2:
     resource:
-      user-info-uri: http://192.168.2.169:8060${authserver.contextPath}/current
+      user-info-uri: http://192.168.103.166:8060${authserver.contextPath}/current
