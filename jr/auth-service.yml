@@ -16,10 +16,10 @@ eureka:
 
 spring:
   datasource:
-    url: jdbc:mysql://rm-bp13egaj4cx7yb74b.mysql.rds.aliyuncs.com:3306/oauth_fin?useUnicode=true&characterEncoding=utf-8
+     url: jdbc:mysql://rm-bp1wh3ex4vc63lrh7io.mysql.rds.aliyuncs.com:3306/auth?useUnicode=true&characterEncoding=utf-8
     driver-class-name: com.mysql.jdbc.Driver
-    username: flower
-    password: Js123678
+    username: canaan
+    password: canaan2018
     initialize: false
     validation-query: SELECT 1
     time-between-eviction-runs-millis: 18800
